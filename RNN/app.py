@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.text import text_to_word_sequence
 import numpy as np
 
 # Load model
-model = tf.keras.models.load_model("sentiment_rnn_model.keras")
+model = tf.keras.models.load_model("RNN/sentiment_rnn_model.keras")
 
 # Load IMDB word index
 word_index = imdb.get_word_index()
